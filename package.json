@@ -1,5 +1,5 @@
 {
-  "name": "testing_appwrite",
+  "name": "epayment",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.4.4",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "autoprefixer": "10.4.14",
+    "axios": "^1.3.5",
+    "encoding": "^0.1.13",
     "eslint": "8.38.0",
     "eslint-config-next": "13.3.0",
+    "khalti-checkout-web": "^2.2.0",
     "next": "13.3.0",
     "postcss": "8.4.21",
     "react": "18.2.0",
